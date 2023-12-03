@@ -1,0 +1,1104 @@
+body{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    overflow:inherit;
+}
+
+
+.banar1{
+    position: relative;
+    background-image: linear-gradient(rgba(11, 49, 68, .2), rgba(11, 49, 68, .2)), linear-gradient(to right, #0b3144 40%, #00e18c);
+    height:75rem;
+}
+
+
+.pic1{
+    position: absolute;
+    right: 10%;
+    top: 15%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@1,500;1,900&display=swap');
+
+.text1{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    color: white;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text2{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-size: 45px;
+    
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@1,500;1,900&display=swap');
+
+
+.text3{
+    position: absolute;
+    color: white;
+    top: 60%;
+    left: 10%;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.text3 h2{
+    padding: 10px;
+}
+
+
+.btn{
+    position: absolute;
+    top: 85%;
+    left: 11%;
+    
+}
+
+.btn1{
+    padding: 25px;
+    background-color: #00e18c;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    border: none;
+    border-radius: 30px;
+    width: 250px;
+
+}
+
+.btn1:hover{
+     background-color: white;
+}
+
+
+
+.btn2{
+    padding: 25px;
+    background-color:transparent;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    border: none;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 350px;
+    color: white;
+    margin-left: 40px;
+
+}
+
+.btn2:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/* banar1 end */
+
+
+.row{
+    position: relative;
+    display: flex;
+    
+}
+
+.col1{
+    flex: 1;
+    position: absolute;
+    top: 1180px;
+    
+
+}
+
+.col1 video{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.logo{
+    position: absolute;
+    top: 3%;
+    color: white;
+}
+
+.text4{
+    position: absolute;
+    top: 7%;
+    right: 10%;
+    color: white;
+    
+
+}
+
+
+.text4 h4{
+    border-bottom: 1.5px solid white;
+    
+}
+
+.menu-icon{
+    position: absolute;
+    z-index: 1;
+    top: 7%;
+    color: aliceblue;
+    right: 3%;
+    width: 60px;
+    height: 60px;
+    background-image: linear-gradient(to right, #f52a72, #6b41f8);
+    border-radius: 50%;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-icon .icon1{
+    color: black;
+    margin-top: 20px;
+    margin-left:25px ;
+    height: 100px;
+}
+
+.menu-icon:hover{
+    background-image: linear-gradient(to right, #f52a72, #6b41f8);
+    width: 70px;
+    height: 70px;
+}
+
+.style1{
+    position: absolute;
+    left: 7%;
+    top: 95%;
+    z-index: 1;
+}
+
+
+.style1 img{
+    height: 900px;
+    
+}
+
+.style2{
+    position: absolute;
+    
+    right: 1%;
+    top: 95%;
+    z-index: 1;
+
+}
+
+
+.style2 img{
+    height: 900px;
+    
+}
+
+
+.style3{
+    position: absolute;
+    
+    right: 1%;
+    top: 95%;
+    z-index: 1;
+
+}
+
+
+.style3 img{
+    height: 900px;
+    
+}
+
+
+
+.animation-text{
+    position: absolute;
+    top: 27%;
+    left: 37%;
+    font-size: 100px;
+    line-height:1px;
+    padding: 10px;
+}
+
+
+.h1a{
+    color: white;
+    animation-name: slideinleft;
+    animation-duration: 5s;
+    animation-delay: 0;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-fill-mode: both;
+    opacity: 0.50757;
+}
+
+@keyframes slideinleft{
+    from{
+
+        transform: translateX(0);
+    }
+
+    to{
+        transform: translateX(-1000px);
+    }
+}
+
+.h1c{
+    color: white;
+    animation-name: slideinleft;
+    animation-duration: 5s;
+    animation-delay: 0;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-fill-mode: both;
+    opacity: 0.50757;
+}
+
+
+@keyframes slideinright{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(1000px);
+    }
+}
+
+
+.h1b{
+    color:white; 
+    animation-name: slideinright;
+    animation-duration: 5s;
+    animation-delay: 0;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    animation-direction:reverse;
+    animation-fill-mode: both;
+    opacity: 0.50757;
+    
+    
+    
+   
+}
+
+
+.scrol-btn{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-image: linear-gradient(to right, #f52a72, #6b41f8);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-left: -40px;
+    padding: 2px;
+    display: flex;
+    opacity: 0.50757;
+    top: 85%;
+    bottom: 0%;
+    left: 50%;
+    right: 0;
+    border: 1px solid linear-gradient(to right, #f52a72, #6b41f8);
+}
+
+
+.scrol-btn h2{
+    color: white;
+    font-size: 15px ;
+} 
+
+
+
+
+.row1{
+    display: flex;
+}
+
+.col2{
+    position: absolute;
+    margin-top: 840px;
+    width: 100vw;
+    box-sizing: border-box;
+    flex: 1;
+    height: 2200px;
+    background-color: rgb(15, 4, 25)136, 0, 255); /* For browsers that do not support gradients */
+    background-image:linear-gradient(#070338, #070338);
+}
+
+
+.text6{
+    color: white;
+    font-family: 'Anton', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-size: 40px;
+font-weight: 100;
+line-height: 70px;
+margin-top: 100px;
+text-align:;
+border-top: 2px solid #62067b;
+margin-left: 70px;
+margin-right: 70px;
+}
+
+
+
+
+.mimg{
+    position: absolute;
+    z-index: 2;
+    top: 198%;
+    left: 25%;
+}
+
+
+
+.mimg img{
+    height: 600px;
+    width: 700px;
+}
+
+
+.nimg{
+    position: absolute;
+    z-index: 3;
+    top: 210%;
+    left: 18%;
+}
+
+
+.nimg img{
+    height: 600px;
+    width: 900px;
+}
+
+.limg{
+    position: absolute;
+    z-index: 4;
+    top: 230%;
+    left: 9%;
+
+}
+
+
+.limg img{
+    height: 700px;
+    width: 1200px;
+}
+
+
+.animation-tcte{
+    position: absolute;
+    z-index: 7;
+    top: 240%;
+    left: 20%;
+    color: white;
+    font-size: 42px;
+    font-weight: 100;
+    opacity: 0.7;
+}
+
+
+.tctx1{
+    color: white;
+    animation-name: slideinleft;
+    animation-duration: 5s;
+    animation-delay: 0;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-fill-mode: both;
+    opacity: 0.50757;
+}
+
+@keyframes slideinleft{
+    from{
+
+        transform: translateX(0);
+    }
+
+    to{
+        transform: translateX(-1000px);
+    }
+}
+
+.tctx3{
+    color: white;
+    animation-name: slideinleft;
+    animation-duration: 5s;
+    animation-delay: 0;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-fill-mode: both;
+    opacity: 0.50757;
+}
+
+
+@keyframes slideinright{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(1000px);
+    }
+}
+
+
+.tctx2{
+    color:white; 
+    animation-name: slideinright;
+    animation-duration: 5s;
+    animation-delay: 0;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    animation-direction:reverse;
+    animation-fill-mode: both;
+    opacity: 0.50757;
+    
+    
+    
+   
+}
+
+
+
+.font{
+    position: absolute;
+    z-index: 8;
+    color: white;
+    top: 300%;
+    text-wrap:balance;
+    left: 10%;
+    border-top: 1.5px solid #62067b;
+    right: 10%;
+    font-size: 20px;
+    font-weight: 20px;
+    font-family: 'Anton', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+}
+
+
+.btnu{
+    position: absolute;
+    z-index: 7;
+    top: 340%;
+    left: 10%;
+    
+}
+
+.btnu button{
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 190px;
+    border: 2px solid #62067b;
+    font-size: 20px;
+}
+
+.btnu:hover{
+    background-color:#62067b ;
+}
+
+
+.frist{
+    position: absolute;
+    z-index: 1;
+    top: 360%;
+    left: 10%;
+    right: 10%;
+    border-top: 2px solid #62067b ;
+}
+
+
+
+.frist h1{
+    font-size: 40px;
+}
+
+.ccc{
+    position: absolute;
+    left: 2%;
+    width: 300px;
+    height: 320px;
+    top: 150px;
+    z-index: 0;
+}
+
+.bbb{
+    position: absolute;
+    z-index: 12;
+    height: 350px;
+    bottom: ;
+}
+
+.frist p{
+    float: right;
+    font-size: 25px;
+}
+
+.ddd{
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    background-color: transparent;
+    border: none;
+    border:2px solid #f52a72;
+    padding: 10px;
+}
+
+.ddd:hover{
+    background-color: #f52a72;
+    color: white;
+}
+
+
+.second{
+    position: absolute;
+    top: 410%;
+    left: 10%;
+    right: 10%;
+    border-top: 2px solid #62067b ;
+}
+
+.second img{
+    float: right;
+}
+
+
+.bbbb{position: absolute;
+    height: 350px;
+    z-index: 2;
+    right: 1%;
+}
+
+.cccc{
+    position: absolute;
+    right:3% ;
+    z-index: 0;
+    top: 60%;
+    height: 330px;
+    width: 300px;
+}
+
+.second h1{
+    font-size: 40px;
+}
+
+.second p{
+    font-size: 25px;
+}
+
+
+.dddd{
+    position: absolute;
+    top: 130%;
+    
+    background-color: transparent;
+    border: none;
+    border:2px solid #f52a72;
+    padding: 10px;
+}
+
+
+.dddd:hover{
+    background-color: #f52a72;
+    color: white;
+}
+
+.three{
+    position: absolute;
+    top: 470%;
+    left: 10%;
+    right: 10%;
+    border-top: 2px solid #62067b ;
+
+}
+
+
+
+.three h1{
+    font-size: 40px;
+}
+
+.ccc{
+    position: absolute;
+    left: 2%;
+    width: 300px;
+    height: 320px;
+    top: 150px;
+    z-index: 0;
+}
+
+.bbb{
+    position: absolute;
+    z-index: 12;
+    height: 350px;
+    bottom: ;
+}
+
+.three p{
+    float: right;
+    font-size: 25px;
+}
+
+.ddddd{
+    position: absolute;
+    top: 130%;
+    left: 60%;
+    background-color: transparent;
+    border: none;
+    border:2px solid #f52a72;
+    padding: 10px;
+}
+
+.ddddd:hover{
+    background-color: #f52a72;
+    color: white;
+}
+
+.four{
+    position: absolute;
+    top: 520%;
+    left: 10%;
+    right: 10%;
+    border-top: 2px solid #62067b ;
+}
+
+
+
+.four img{
+    float: right;
+}
+
+
+.bbbb{position: absolute;
+    height: 350px;
+    z-index: 2;
+    right: 1%;
+}
+
+.cccc{
+    position: absolute;
+    right:3% ;
+    z-index: 0;
+    top: 60%;
+    height: 330px;
+    width: 300px;
+}
+
+.four h1{
+    font-size: 40px;
+}
+
+.four p{
+    font-size: 25px;
+}
+
+
+.dddd{
+    position: absolute;
+    top: 130%;
+    
+    background-color: transparent;
+    border: none;
+    border:2px solid #f52a72;
+    padding: 10px;
+}
+
+
+.dddd:hover{
+    background-color: #f52a72;
+    color: white;
+}
+
+
+.grid{
+    position: absolute;
+    top: 580%;
+    border-top: 2px solid #62067b;
+    left: 8%;
+    right: 8%;
+    
+    
+}
+
+.grid-text{
+    font-size: 30px;
+
+}
+
+
+.picture1{
+    position: absolute;
+    display: flex;
+    right: 0%;
+    padding-left: 10%;
+}
+
+
+.pic13{
+    height: 250px;
+    width: 200px;
+    padding: 10px;
+    
+}
+
+.pic2{
+    height: 250px;
+    width: 200px;
+    padding: 10px;
+}
+
+
+.pic3{
+    height: 250px;
+    width: 200px;
+    padding: 10px;
+}
+
+
+.pic4{
+    height: 250px;
+    width: 200px;
+    padding: 10px;
+}
+
+
+.pic5{
+    height: 250px;
+    width: 200px;
+    padding: 10px;
+}
+
+
+.pic6{
+    height: 250px;
+    width: 200px;
+    padding: 10px;
+    
+}
+
+
+
+.picture2{
+    position: absolute;
+    display: flex;
+    right: 0%;
+    padding-left: 10%;
+    top: 310%;
+}
+
+
+.pic7{
+    height: 250px;
+    width: 200px;
+    padding: 10px;
+    
+}
+
+.pic8{
+    height: 250px;
+    width: 200px;
+    padding: 10px;
+}
+
+
+.pic9{
+    height: 250px;
+    width: 200px;
+    padding: 10px;
+}
+
+
+.pic10{
+    height: 250px;
+    width: 200px;
+    padding: 10px;
+}
+
+
+.pic11{
+    height: 250px;
+    width: 200px;
+    padding: 10px;
+}
+
+
+.pic12{
+    height: 250px;
+    width: 200px;
+    padding: 10px;
+    
+}
+
+
+
+
+
+
+
+.footar{
+    background-color: rgb(32, 3, 40);
+    position: absolute;
+    height: 1500px;
+    width: 100vw;
+    top: 640%;
+    
+}
+
+.foot-text{
+    color: white;
+    right: 10%;
+    left: 10%;
+    position: absolute;
+    top: 10%;
+    font-size: 50px;
+    border-top:#f52a72 1px solid ;
+    
+}
+
+
+
+
+
+
+.foot-text2{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 10%;
+    border-top: #f52a72 2px solid;
+    width: 350px;
+
+}
+
+
+.foot-text2 h1{
+    font-weight:300;
+    font-size: 20px;
+    margin-left: 15px;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dhurjati&family=Noto+Sans:ital,wght@1,300&family=Raleway&family=Roboto:ital,wght@1,500;1,900&display=swap');
+
+.foot-text2 span{
+    font-size: 150px;
+    font-weight:100;
+    color: #f52a72;
+    line-height: 1cap;
+    font-family: Barlow Condensed, sans-serif;
+}
+
+
+.foot-text2 h2{
+    font-size: 45px;
+    font-weight:100;
+    color: #f52a72;
+    line-height: 1cap;
+    margin-left: 15px;
+    font-family: Barlow Condensed, sans-serif;
+}
+
+
+
+
+.foot-text3{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 38.5%;
+    border-top: #f52a72 2px solid;
+    width: 350px;
+}
+
+.foot-text3 h1{
+    font-weight:300;
+    font-size: 20px;
+    margin-left: 15px;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dhurjati&family=Noto+Sans:ital,wght@1,300&family=Raleway&family=Roboto:ital,wght@1,500;1,900&display=swap');
+
+.foot-text3 span{
+    font-size: 150px;
+    font-weight:100;
+    color: #f52a72;
+    line-height: 1cap;
+    font-family: Barlow Condensed, sans-serif;
+}
+
+
+.foot-text3 h2{
+    font-size: 45px;
+    font-weight:100;
+    color: #f52a72;
+    line-height: 1cap;
+    margin-left: 15px;
+    font-family: Barlow Condensed, sans-serif;
+}
+
+
+
+
+.foot-text4{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 67%;
+    border-top: #f52a72 2px solid;
+    width: 350px;
+}
+
+
+.foot-text4 h1{
+    font-weight:300;
+    font-size: 20px;
+    margin-left: 15px;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dhurjati&family=Noto+Sans:ital,wght@1,300&family=Raleway&family=Roboto:ital,wght@1,500;1,900&display=swap');
+
+.foot-text4 span{
+    font-size: 150px;
+    font-weight:100;
+    color: #f52a72;
+    line-height: 1cap;
+    font-family: Barlow Condensed, sans-serif;
+}
+
+
+.foot-text4 h2{
+    font-size: 45px;
+    font-weight:100;
+    color: #f52a72;
+    line-height: 1cap;
+    margin-left: 15px;
+    font-family: Barlow Condensed, sans-serif;
+}
+
+
+
+
+.foot-end{
+    position: absolute;
+    color: white;
+    top: 70%;
+    left: 7%;
+}
+
+.getintouch h1{
+    font-family: Barlow Condensed, sans-serif;
+    font-size: 120px;
+    animation-name: text00l;
+    animation-duration: 5s;
+    animation-delay: 0;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-fill-mode: both;
+    opacity: 0.50757;
+}
+
+
+@keyframes text00l{
+    from{
+        transform: translateX(100px);
+    }
+
+    to{
+        transform: translateX(1px);
+    }
+}
+
+
+
+.foot1{
+    position: absolute;
+    top: 20%;
+    left: 140%;
+    
+    
+}
+.foot1 h1{
+    border-bottom:#f52a72 1px solid ;
+    width: 150px;
+    font-size: 30px;
+    font-family: Barlow Condensed, sans-serif;
+}
+
+
+.foot1 a{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.imjj{
+    height: 70px;
+    padding: 10px;
+}
+
+
+.foot2{
+    position: absolute;
+    top: 20%;
+    left: 200%;
+}
+
+
+.foot2 h1{
+    border-bottom:#f52a72 1px solid ;
+    width: 170px;
+    font-size: 30px;
+    font-family: Barlow Condensed, sans-serif;
+}
+
+
+.foot2 a{
+    color: white;
+    padding-bottom: 20px;
+}
+
+
+
+.foot3{
+    position: absolute;
+    top: 20%;
+    left: 260%;
+}
+
+
+
+.foot3 h1{
+    border-bottom:#f52a72 1px solid ;
+    width: 170px;
+    font-size: 30px;
+    font-family: Barlow Condensed, sans-serif;
+}
+
+
+.foot3 a{
+    color: white;
+    padding-bottom: 20px;
+}
